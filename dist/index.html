@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Аренда квартир</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script defer src="./main.js"></script>
+</head> 
+<body>
+    <video autoplay loop muted class="bgvideo bgvideo-1">
+        <source src="../videos/Puppy - 4740.mp4" type="video/mp4"></source>
+    </video> 
+    <div class="bg-wrap">    
+        <div class="bg-inner">
+            <video autoplay loop muted class="bgvideo bgvideo-2">
+                <source src="../videos/Flowers - 64035.mp4" type="video/mp4"></source>
+            </video>
+        </div>  
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
+                <div class="logo">
+                    <a href="#"><img src="../img/Лого.svg" alt="LOGO" class="logo-img"></a>
+                </div>
+                <div class="contact-info">
+                    <a href="tel: 8 800 222-37-90">
+                        <div class="phone">8 800 222-37-90</div>
+                        <img src="../img/phone-logo.svg" class="phone__logo"></img>
+                    </a>
+                    <div class="shedule">Работаем ежедневно с 10:00 до 20:00</div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href=""><span data-hover="Квартиры">Квартиры</span></a></li>
+                        <li><a href=""><span data-hover="Ипотека">Ипотека</span></a></li>
+                        <li><a href=""><span data-hover="Коммерция">Коммерция</span></a></li>
+                        <li><a href=""><span data-hover="Управляющая компания">Управляющая компания</span></a></li>
+                    </ul>
+                    <div class="burger-menu"></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero__wrapper">
+                    <div class="hero-logo">
+                        <img class="hero-logo-img" src="../img/hero-logo.png "></img>
+                    </div>
+                    <div class="districts">
+                        <ul class="first-column">
+                            <li><a href="#">Северный парк</a></li>
+                            <li><a href="#">Станция Столичная</a></li>
+                            <li><a href="#">Лето</a></li>
+                            <li><a href="#">Сказочный сад</a></li>
+                            <li><a href="#">Краски</a></li>
+                        </ul>
+                        <ul class="second-column">
+                            <li><a href="#">Ренессанс</a></li>
+                            <li><a href="#">Компасс сити</a></li>
+                            <li><a href="#">Бруклин</a></li>
+                            <li><a href="#">Монблан</a></li>
+                        </ul>
+                    </div>
+                    <div class="bg-switches">
+                        <div class="left switch">
+                            <img src="../img/left-switch.svg" alt="Left-switch">
+                        </div>
+                        <div class="right switch">
+                            <img src="../img/right-switch.svg" alt="Right-switch">
+                        </div>
+                    </div>
+                    <div class="slogan">Стильная архитектура и виды  из окон будущей квартиры не оставят равнодушных</div>
+                </div>
+            </section>
+            <section class="hero-bottom">   
+                <div class="network-logo">
+                    <a href="https://www.facebook.com"><img class="facebook" src="../img/facebook.svg" alt="facebook-logo"></a>
+                    <a href="https://www.twitter.com"><img class="instagram" src="../img/instagram.svg" alt="twitter-logo"></a>
+                    <a href="https://www.instagram.com"><img class="twitter" src="../img/twitter.svg" alt="instagram-logo"></a>
+                    <a href="https://www.vk.com"><img class="vk" src="../img/VK.svg" alt="vk-logo"></a>
+                </div>
+                <div class="order">
+                    <div class="button buy-button">
+                        <button class="order-button" type="button">+<span class="br">Выбрать квартиру</span></button>
+                    </div>
+                    <a class="order-link" href="#">Купить квартиру онлайн <span class="link-symbol">&#62;</span></a>
+                    <img src="../img/order-img.svg" alt="" class="order-img">
+                </div>
+            </section>
+        </div>  
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="filters-wrap">
+                <div class="room filter">
+                    <div class="room-header filter-header">Количество комнат</div>
+                    <div class="buttons">
+                        <button class="studio active">студия</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                    </div>
+                </div>
+                <div class="square filter">
+                    <div class="square-header filter-header">Площадь</div>
+                    <div class="inputs">
+                        <div class="input__text-type">
+                            <div class="input-wrap">
+                                <span>от</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-wrap">
+                                <span>до</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="polzunok-container">
+                            <div class="polzunok-square"></div>
+                          </div>
+                    </div> 
+                </div>
+                <div class="price filter">
+                    <div class="price-header filter-header">Стоимость, млн ₽</div>
+                    <div class="inputs">
+                        <div class="input__text-type">
+                            <div class="input-wrap">
+                                <span>от</span>
+                                <input type="text">
+                            </div>
+                            <div class="input-wrap">
+                                <span>до</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="polzunok-container">
+                            <div class="polzunok-price"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area filter">
+                    <div class="area-header filter-header"></div>
+                    <select class="select" name="" id="">
+                        <option selected value="Северный парк">Северный парк</option>
+                        <option value="Станция Столичная">Станция Столичная</option>
+                        <option value="Лето">Лето</option>
+                        <option value="Сказочный сад">Сказочный сад</option>
+                        <option value="Краски">Краски</option>
+                        <option value="Ренессанс">Ренессанс</option>
+                        <option value="Компасс сити">Компасс сити</option>
+                        <option value="Бруклин">Бруклин</option>
+                        <option value="Монблан">Монблан</option>
+                    </select>
+                </div>
+                <div class="more-filters">
+                    <div class="button foot-button">
+                        <button class="footer-button">
+                            <img class="setting-img" src="../img/settings.svg" alt="">
+                            <span> Ещё <br> фильтры</span>
+                        </button>
+                    </div> 
+                </div>
+                <div class="show">
+                    <button class="show-button">Показать 120 квартир</button>
+                </div>
+            </div>
+            <form class="footer-input">
+                <div class="footer-input-wrapper">
+                    <input type="text" placeholder="Подобрать квартиру">
+                    <img src="../img/Search.svg" alt="" class="finder">
+                </div>
+            </form>
+        </div>
+    </footer>
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal-button">
+                <button class="">Поиск</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
